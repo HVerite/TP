@@ -26,6 +26,7 @@
 
 				</configuration>
 			</plugin>
+
 		</plugins>
 	</build>
 
@@ -141,7 +142,7 @@
 			<artifactId>spring-security-test</artifactId>
 			<version>${springsecurity.version}</version>
 		</dependency>
-		
+
 
 
 
@@ -173,6 +174,14 @@
 			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.jacoco</groupId>
+			<artifactId>org.jacoco.core</artifactId>
+			<version>0.7.6.201602180812</version>
+			<scope>test</scope>
+		</dependency>
+
 
 	</dependencies>
 
